@@ -8,6 +8,14 @@ def tearDownModule():
   print('tear down module')
 
 class TestCalculator(unittest.TestCase):
+    """Tests the four basic mathematical operations in calculator.py
+
+    Methods:
+     test_add(number, number)
+     test_subtract(number, number)
+     test_multiply(number, number)
+     test_divide(number,number)
+    """
 
   @classmethod
   def setUpClass(self):
